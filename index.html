@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolia</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="header">
+    
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#projects">projects</a>
+            <a href="#contact">contact</a>
+        </nav>
+    </header>
+    
+    <div id="menu-btn" class="fas fa-bars"></div>
+    <!-- home page -->
+
+    <section class="home" id="home">
+        <div class="content">
+            <h1>Andisiwe Gcakamane</h1>
+            <p>Welcome to my website, I am a Software Developer <br />
+            who is passionate about learning new technologies and creating beautiful web applications.</p>
+        </div>
+        
+        <div class="share">
+            <a href="https://github.com/agcakamane/" class="fab fa-github"></a>
+            <a href="https://www.linkedin.com/in/andisiwe-gcakamane/" class="fab fa-linkedin"></a>
+            <a href="https://angel.co/andisiwe-gcakamane" class="fab fa-angellist"></a>
+            <a href="https://twitter.com/GcakamaneA" class="fab fa-twitter" ></a>
+        </div>
+
+    </section>
+
+<!-- about page -->
+
+<section class="about" id="about">
+
+    <div class="content">
+        <h2 class="name">About Me</h2>
+        <p>I am a Final year student in Software Development. I enjoy learning about new technology and have a passion for web development. I have learned a few Technical skills, which i have listed below.</p>
+    </div>
+
+    <div class="skills">
+        <div class="progress">
+            <h3>html</h3>
+        </div>
+        <div class="progress">
+            <h3>css</h3>
+        </div>
+        <div class="progress">
+            <h3>javascript</h3>
+        </div>
+        <div class="progress">
+            <h3>python</h3>
+        </div>
+        <div class="progress">
+            <h3>java</h3>
+        </div>
+        <div class="progress">
+            <h3>mysql</h3>
+        </div>
+        <div class="progress">
+            <h3>react</h3>
+        </div>
+
+    </div>
+    </section>
+
+    <!-- projects -->
+    <section class="projects" id="projects">
+
+        <h1 class="heading">my <span> projects</span></h1>
+    
+        <div class="box-container">
+    
+            <div class="box">
+                <i class="fa fa-camera-retro" aria-hidden="true"></i>
+                <h3>Picture view</h3>
+                <p>I have created a picture view with Html and Css</p>
+                <a href="https://agcakamane.github.io/landscapes/"><button class="btn">View Demo</button></a>  <a href="https://github.com/agcakamane/landscapes"><button class="btn">View Code</button></a>
+            </div>
+            <div class="box">
+                <i class="fa fa-coffee" aria-hidden="true"></i>
+                <h3>Coffee Shop</h3>
+                <p>I tried a coffee shop website using Html, Css and javascript</p>
+                <a href="https://agcakamane.github.io/coffee-shop/"><button class="btn">View Demo</button></a>  <a href="https://github.com/agcakamane/coffee-shop"><button class="btn">View Code</button></a>
+            </div>
+            <div class="box">
+                <i class="fas fa-list-alt"></i>
+                <h3>Todo List</h3>
+                <p>I have created a to-do list using python and django</p>
+                <a href="https://warm-fjord-21140.herokuapp.com/"><button class="btn">View Demo</button></a>  <a href="https://github.com/agcakamane/todo"><button class="btn">View Code</button></a>
+            </div>
+    
+        </div>
+    
+    </section>
+
+<!-- contact section -->
+<section class="contact" id="contact">
+
+    <h1 >contact me </h1>
+
+    <form >
+        <label for="text">Name</label>
+        <input type="text" class="box" required>
+        <label for="email">Email</label>
+        <input type="email" class="box" required>
+        <label for="massage">Massage</label>
+        <textarea name="" class="box" id="" cols="30" rows="10"></textarea>
+        <button type="submit" class="btn">Send</button>
+    </form>
+
+</section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
